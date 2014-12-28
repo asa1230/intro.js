@@ -1,9 +1,10 @@
 # Intro.js
+新手使用引导JS
 
-> Better introductions for websites and features with a step-by-step guide for your projects.
+> 在网页上一步一步引导用户，帮助他们更好的熟悉你的网站或新功能
 
-## Where to get
-You can obtain your local copy of Intro.js from:
+## 那里可以下载
+Intro.js提供了一下的几种方式：
 
 **1)** This github repository, using ```git clone https://github.com/usablica/intro.js.git```
 
@@ -14,24 +15,24 @@ You can obtain your local copy of Intro.js from:
 **4)** Download it from CDN ([1](http://www.jsdelivr.com/#!intro.js), [2](http://cdnjs.com/#introjs))
 
 
-## How to use
-Intro.js can be added to your site in three simple steps:
+## 如何使用
+简单3步 你就可以在你的网站上部署 Intro.js  效果 :
 
-**1)** Include `intro.js` and `introjs.css` (or the minified version for production) in your page. Use `introjs-rtl.min.css` for Right-to-Left language support.
+**1)** 引入 `intro.js` 和 `introjs.css` (或压缩版) 到你的页面上. `introjs-rtl.min.css` 是压缩文件
 
-> CDN hosted files are available at [jsDelivr](http://www.jsdelivr.com/#!intro.js) (click Show More) & [cdnjs](http://cdnjs.com/#introjs).
+> CDN hosted 文件运行访问 [jsDelivr](http://www.jsdelivr.com/#!intro.js) (click Show More) & [cdnjs](http://cdnjs.com/#introjs).
 
-**2)** Add `data-intro` and `data-step` to your HTML elements.
+**2)** 添加 `data-intro` 和 `data-step` 到页面上面
 
-For example:
+例如:
 
 ```html
 <a href='http://google.com/' data-intro='Hello step one!'></a>
 ````
 
-See all attributes [here](https://github.com/usablica/intro.js/#attributes).
+查看所有属性  [here](https://github.com/usablica/intro.js/#attributes).
 
-**3)** Call this JavaScript function:
+**3)** 调用JS方法:
 ```javascript
 introJs().start();
 ````
